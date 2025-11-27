@@ -6,7 +6,7 @@ echo "Starting LLM Council..."
 echo ""
 
 # Start backend
-echo "Starting backend on http://35.153.143.148:8001..."
+echo "Starting backend on http://35.153.143.148:8003..."
 uv run python -m backend.main &
 BACKEND_PID=$!
 
@@ -21,7 +21,7 @@ FRONTEND_PID=$!
 
 echo ""
 echo "✓ LLM Council is running!"
-echo "  Backend:  http://35.153.143.148:8001"
+echo "  Backend:  http://35.153.143.148:8003"
 echo "  Frontend: http://35.153.143.148:5173"
 echo ""
 echo "Press Ctrl+C to stop both servers"

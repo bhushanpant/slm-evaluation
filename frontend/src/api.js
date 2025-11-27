@@ -2,7 +2,7 @@
  * API client for the LLM Council backend.
  */
 
-const API_BASE = 'http://35.153.143.148:8001';
+const API_BASE = 'http://35.153.143.148:8003';
 
 export const api = {
   /**
