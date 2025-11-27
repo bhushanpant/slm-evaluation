@@ -77,7 +77,7 @@ cd frontend
 npm run dev
 ```
 
-Then open http://localhost:5173 in your browser.
+Then open http://35.153.143.148:5173 in your browser.
 
 ## Tech Stack
 

@@ -41,7 +41,7 @@ LLM Council is a 3-stage deliberation system where multiple LLMs collaboratively
 - Note: metadata (label_to_model, aggregate_rankings) is NOT persisted to storage, only returned via API
 
 **`main.py`**
-- FastAPI app with CORS enabled for localhost:5173 and localhost:3000
+- FastAPI app with CORS enabled for 35.153.143.148:5173 and 35.153.143.148:3000
 - POST `/api/conversations/{id}/message` returns metadata in addition to stages
 - Metadata includes: label_to_model mapping and aggregate_rankings
 
